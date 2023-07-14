@@ -3,6 +3,10 @@ function fibonacci(num) {
 	let n1=0;
 	let n2=1;
 	let sum=1;
+	if(num==0)
+		return 0;
+	if(num==1)
+		return 1;
 	for(let i=0;i<num-2;i++)
 		{
 			sum=n1+n2;
