@@ -6,8 +6,8 @@ function fibonacci(num) {
 	for(let i=0;i<num-2;i++)
 		{
 			sum=n1+n2;
-			n2=sum;
 			n1=n2;
+			n2=sum;
 		}
 	return sum;
 }
